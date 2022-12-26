@@ -4,7 +4,7 @@
  * main - print the number in base 36
  * Return: Always 0
  */
-in main(void)
+int main(void)
 {
 	int num;
 	char la;
