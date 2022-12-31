@@ -4,7 +4,7 @@
 /**
  * print_sign - checks for lower case character
  * @c: the character to be checked
- * Return: 1 for lowercase charcter or 0 for anything else
+ * Return: 1 for posetive num , -1 for negative num,  or 0 for anything else
  */
 int print_sign(int n)
 {
