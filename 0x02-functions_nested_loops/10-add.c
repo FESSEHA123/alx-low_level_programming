@@ -1,8 +1,8 @@
 #include"main.h"
 /**
  * add -adds two values
- * @1: the 1st number to be computed
- * @2: the 12nd num. to be computed 
+ * @n1: the 1st number to be computed
+ * @n2: the 12nd num. to be computed
  * Return: int value
  */
 
