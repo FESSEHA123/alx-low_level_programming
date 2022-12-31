@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - prints the sum of all multiple of  3 or 5 up to 1024
- * return: always (sucess)
+ * 101_natural - prints the sum of all multiple of  3 or 5 up to 1024
+ * return: always (sucess) 0.
  */
-int main(void)
+int 101_natural(void)
 {
 	int i, z = 0;
 
