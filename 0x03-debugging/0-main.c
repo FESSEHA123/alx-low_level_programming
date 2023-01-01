@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main -test function that printsif intiger is posetive or negative
- * Return: 0
+ * Return: 0.
  */
 int main(void)
 {
