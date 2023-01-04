@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * _strncat - concatinate
- * @dest:
- * @src:
- * @n:
- * Return: Apointr
+ * @dest:the string to be 
+ * @src:the string to be appread
+ * @n:the number of bytes 
+ * Return: Apointer to the resulting
  */
 
 char *_strncat(char *dest, char *src, int n)
