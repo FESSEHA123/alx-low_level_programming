@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _strncat - concatinate
- * @dest:the string to be 
+ * @dest:the string to be
  * @src:the string to be appread
- * @n:the number of bytes 
+ * @n:the number of bytes
  * Return: Apointer to the resulting
  */
 
