@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "main.h"
+#include <stdlib.h>
 /**
  * main - prints scgkdcbhdc h	bccldcc
  * @argc: jhjhwgjcgpe
