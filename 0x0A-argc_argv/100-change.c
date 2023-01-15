@@ -3,7 +3,7 @@
 
 /**
  * main - prints sc000000000 kdjdlgv gkdcbhdc h	bccldcc
- *                      dvhv;uvbjbv;u	vv	vlbyv; 
+ *
  * @argc: jhjhwgjcgpe
  * @argv: argument vecto
  *
