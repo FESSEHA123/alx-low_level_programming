@@ -4,7 +4,6 @@
 /**
  * _strdup - creates an array of chars
  * @str: the size ofthe array
- * @c: the char to fill in the array
  *
  * Return: the array filled
  */
