@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include "main.h"
 #include <stdlib.h>
-#include <string.h>
 
 /**
- * main - prints scgkdcbhdc h	bccldcc
+ * main - prints sc000000000 kdjdlgv gkdcbhdc h	bccldcc
+ *                      dvhv;uvbjbv;u	vv	vlbyv; 
  * @argc: jhjhwgjcgpe
  * @argv: argument vecto
  *
@@ -27,6 +26,7 @@ int main(int argc, char *argv[])
 		if ((cents - 25) >= 0)
 		{
 			cents -= 25;
+			continue;
 		}
 		if ((cents - 10) >= 0)
 		{
