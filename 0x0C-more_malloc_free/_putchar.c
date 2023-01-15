@@ -2,8 +2,8 @@
 #include <unistd.h>
 
 /**
- * *_putchar - writes the character 
- * @c: the charcter 
+ * *_putchar - writes the characte
+ * @c: the charcte
  *
  * Return: on sucess 1.
  *on error, -1 is returned, and errno is set appropriatly.
