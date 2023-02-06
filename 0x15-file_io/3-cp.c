@@ -1,10 +1,6 @@
 #include "main.h"
-
 #include <stdio.h>
-
 #include <stdlib.h>
-
-
 
 /**
  * check97 - checks for the correct number of arguments
@@ -16,7 +12,6 @@
 void check97(int argc)
 
 {
-
 	if (argc != 3)
 
 	{
@@ -28,8 +23,6 @@ void check97(int argc)
 	}
 
 }
-
-
 
 /**
  * check98 - checks that file_from exists and can be read
@@ -101,8 +94,6 @@ void check99(ssize_t check, char *file, int fd_from, int fd_to)
 
 }
 
-
-
 /**
  * check100 - checks that file descriptors were closed properly
  * @check: checks if true or false
@@ -114,7 +105,6 @@ void check99(ssize_t check, char *file, int fd_from, int fd_to)
 void check100(int check, int fd)
 
 {
-
 	if (check == -1)
 
 	{
@@ -138,7 +128,6 @@ void check100(int check, int fd)
 int main(int argc, char *argv[])
 
 {
-
 	int fd_from, fd_to, close_to, close_from;
 
 	ssize_t lenr, lenw;
@@ -146,8 +135,6 @@ int main(int argc, char *argv[])
 	char buffer[1024];
 
 	mode_t file_perm;
-
-
 
 	check97(argc);
 
@@ -164,31 +151,17 @@ int main(int argc, char *argv[])
 	lenr = 1024;
 
 	while (lenr == 1024)
-
 	{
-
 		lenr = read(fd_from, buffer, 1024);
-
 		check98(lenr, argv[1], fd_from, fd_to);
-
 		lenw = write(fd_to, buffer, lenr);
-
 		if (lenw != lenr)
-
 			lenw = -1;
-
 		check99(lenw, argv[2], fd_from, fd_to);
-
 	}
-
 	close_to = close(fd_to);
-
 	close_from = close(fd_from);
-
 	check100(close_to, fd_to);
-
 	check100(close_from, fd_from);
-
 	return (0);
-
 }
